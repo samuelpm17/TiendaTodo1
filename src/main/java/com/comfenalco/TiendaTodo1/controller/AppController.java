@@ -24,6 +24,7 @@ import com.comfenalco.TiendaTodo1.service.IProductoService;
 @SessionAttributes("producto")
 public class AppController {
 	
+	//comment
 	@Autowired
 	private IProductoService productoService;
 		
