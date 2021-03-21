@@ -1,4 +1,4 @@
-package com.comfenalco.TiendaTodo1.service;
+package com.samuelpenam.TiendaTodo1.service;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.comfenalco.TiendaTodo1.model.entity.Producto;
-import com.comfenalco.TiendaTodo1.model.persistence.IProductoDao;
+import com.samuelpenam.TiendaTodo1.model.entity.Producto;
+import com.samuelpenam.TiendaTodo1.model.persistence.IProductoDao;
 
 @Service
 public class ProductoServiceImpl implements IProductoService {

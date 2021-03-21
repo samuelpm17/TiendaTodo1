@@ -1,4 +1,4 @@
-package com.comfenalco.TiendaTodo1;
+package com.samuelpenam.TiendaTodo1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
