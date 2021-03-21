@@ -1,4 +1,4 @@
-package com.comfenalco.TiendaTodo1.model.entity;
+package com.samuelpenam.TiendaTodo1.model.entity;
 
 import java.io.File;
 import java.io.Serializable;

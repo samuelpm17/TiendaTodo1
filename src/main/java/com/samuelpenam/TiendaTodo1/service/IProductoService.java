@@ -1,11 +1,11 @@
-package com.comfenalco.TiendaTodo1.service;
+package com.samuelpenam.TiendaTodo1.service;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.comfenalco.TiendaTodo1.model.entity.Producto;
+import com.samuelpenam.TiendaTodo1.model.entity.Producto;
 
 public interface IProductoService {
 	

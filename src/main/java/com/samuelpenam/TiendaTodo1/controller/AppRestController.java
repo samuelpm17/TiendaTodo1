@@ -1,4 +1,4 @@
-package com.comfenalco.TiendaTodo1.controller;
+package com.samuelpenam.TiendaTodo1.controller;
 
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.comfenalco.TiendaTodo1.service.IProductoService;
+import com.samuelpenam.TiendaTodo1.service.IProductoService;
 
 @RestController
 public class AppRestController {

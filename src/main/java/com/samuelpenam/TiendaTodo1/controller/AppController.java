@@ -1,4 +1,4 @@
-package com.comfenalco.TiendaTodo1.controller;
+package com.samuelpenam.TiendaTodo1.controller;
 
 import java.io.IOException;
 import java.util.Date;
@@ -17,13 +17,14 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.comfenalco.TiendaTodo1.model.entity.Producto;
-import com.comfenalco.TiendaTodo1.service.IProductoService;
+import com.samuelpenam.TiendaTodo1.model.entity.Producto;
+import com.samuelpenam.TiendaTodo1.service.IProductoService;
 
 @Controller
 @SessionAttributes("producto")
 public class AppController {
 	
+	//comment
 	@Autowired
 	private IProductoService productoService;
 		
